@@ -1,0 +1,27 @@
+body{
+    background-image: url("ab.jpg");
+    background-size: contain;
+    background-position: top;
+}
+
+header{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+ul{
+   display: flex;
+   list-style: none;
+   justify-content: end;
+   margin-left: auto;
+   gap: 15px;
+   
+}
+
+ul li a{
+    text-decoration: none;
+}
+h1,h2,p+li a{
+    color: white;
+}
